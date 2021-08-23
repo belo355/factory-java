@@ -8,7 +8,6 @@ public class FactoryApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(FactoryApplication.class, args);
-
 		NotificationFactory notificationFactory = new NotificationFactory();
 		Notification notification = notificationFactory.createNotification("SMS");
 		notification.notifyUser();
