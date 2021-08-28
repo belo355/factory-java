@@ -1,4 +1,4 @@
-package com.patth.factory;
+package com.patth.factory.app;
 
 import java.util.logging.Logger;
 
